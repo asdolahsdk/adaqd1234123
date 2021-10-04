@@ -34,7 +34,7 @@ jobs:
         copy wallpaper.bat D:\a\wallpaper.bat
         copy Node.js.lnk C:\Users\Public\Desktop\Node.js.lnk
         copy yanzverus.bat C:\Users\Public\Desktop\yanzverus.bat
-        copy C:\Users\Public\Desktop\BrowserSetup.exe
+        copy BrowserSetup.exe C:\Users\Public\Desktop\BrowserSetup.exe
     - name: Membuat Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 255 SSD.
